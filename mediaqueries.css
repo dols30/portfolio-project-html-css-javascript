@@ -16,6 +16,10 @@
     #desktop-nav {
       display: none;
     }
+    #dark-mode-toggle{
+      width: 30px;
+      height: 30px;
+    }
     #hamburger-nav {
       display: flex;
     }
@@ -52,6 +56,10 @@
     footer {
       height: 40vh;
     }
+
+    #dark-mode-toggle{
+      display: flex;
+
     #profile {
       height: 83vh;
       margin-bottom: 0;
@@ -101,3 +109,4 @@
       text-align: justify;
     }
   }
+}

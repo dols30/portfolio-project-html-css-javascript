@@ -430,3 +430,83 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/* Dark mode styles */
+#dark-mode-toggle {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 60px;
+  width: 60px;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode p {
+  color: #b3b3b3;
+}
+
+body.dark-mode a {
+  color: #82aaff;
+  text-decoration-color: #82aaff;
+}
+
+body.dark-mode a:hover {
+  color: #bb86fc;
+  text-decoration-color: #bb86fc;
+}
+
+body.dark-mode .nav-links a {
+  color: #bb9ce4;
+}
+
+body.dark-mode .hamburger-icon span {
+  background-color: #e0e0e0;
+}
+
+body.dark-mode .menu-links {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .menu-links a {
+  color: #e0e0e0;
+}
+body.dark-mode .btn-color-2{
+  color: white;
+}
+
+body.dark-mode section {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .details-container {
+  background: #1e1e1e;
+  border-color: #333333;
+}
+
+body.dark-mode .experience-sub-title {
+  color: #b3b3b3;
+}
+
+body.dark-mode .color-container {
+  background: #1e1e1e;
+  border-color: #333333;
+}
+
+body.dark-mode .project-title,
+body.dark-mode .project-btn {
+  color: #e0e0e0;
+}
+
+body.dark-mode .contact-info-upper-container {
+  background: #1e1e1e;
+  border-color: #333333;
+}
+
+body.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #998fdb;
+}
